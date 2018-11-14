@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="940.0" prefWidth="1281.0" style="-fx-background-color: #616161;" stylesheets="@../controller/application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.ViewtableController">
+   <children>
+      <Label fx:id="title1" layoutX="54.0" layoutY="30.0" prefHeight="45.0" prefWidth="316.0" style="-fx-background-color: #00b0ff;" text="Hotel Bombay Wraps">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#12c6ae" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="cuisines1" layoutX="45.0" layoutY="339.0" prefHeight="21.0" prefWidth="279.0" style="-fx-background-color: #ffff00;" text="CUISINES:       Indian,Mexican,Italian">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="time1" layoutX="45.0" layoutY="382.0" prefHeight="21.0" prefWidth="300.0" style="-fx-background-color: #ffff00;" text="HOURS:         12Noon to 3PM,6PM to 1AM">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="232.0" fitWidth="451.0" layoutX="45.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/bombaywraps.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="366.0" layoutY="403.0" mnemonicParsing="false" onAction="#showbombaywrapmenu" prefHeight="31.0" prefWidth="115.0" style="-fx-background-color: #64ffda;" text="VIEW MENU" />
+      <Button layoutX="367.0" layoutY="334.0" mnemonicParsing="false" onAction="#bookbombaywraptable" prefHeight="31.0" prefWidth="115.0" style="-fx-background-color: #64ffda;" text="BOOK TABLE" />
+      <Label fx:id="title2" layoutX="45.0" layoutY="480.0" prefHeight="43.0" prefWidth="199.0" style="-fx-background-color: #00b0ff;" text="Global Fusion ">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#12c6ae" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="cuisines2" layoutX="42.0" layoutY="801.0" prefHeight="21.0" prefWidth="306.0" style="-fx-background-color: #ffff00;" text="CUISINES:    Chinese,Japanese,North-Indian">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="time2" layoutX="45.0" layoutY="847.0" prefHeight="21.0" prefWidth="316.0" style="-fx-background-color: #ffff00;" text="HOURS:     12Noon to 3.30PM,7PM to 12AM">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="376.0" layoutY="842.0" mnemonicParsing="false" onAction="#viewglobalfusionmenu" prefHeight="31.0" prefWidth="115.0" style="-fx-background-color: #64ffda;" text="VIEW MENU" />
+      <Button layoutX="376.0" layoutY="786.0" mnemonicParsing="false" onAction="#bookglobalfusiontable" prefHeight="31.0" prefWidth="115.0" style="-fx-background-color: #64ffda;" text="BOOK TABLE" />
+      <ImageView fitHeight="254.0" fitWidth="398.0" layoutX="45.0" layoutY="523.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/globalfusion.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="498.0" fitWidth="593.0" layoutX="641.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/rest1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="381.0" fitWidth="566.0" layoutX="669.0" layoutY="512.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/rest2.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="1114.0" layoutY="30.0" mnemonicParsing="false" onAction="#gohome" style="-fx-background-color: #00b0ff;" text="HOME" />
+   </children>
+</Pane>

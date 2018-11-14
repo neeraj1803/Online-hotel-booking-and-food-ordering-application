@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane fx:id="hi" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="905.0" prefWidth="1188.0" style="-fx-background-color: #424242;" stylesheets="@../controller/application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.UserwelcomeController">
+   <children>
+      <Label fx:id="hello" layoutX="178.0" layoutY="71.0" prefHeight="47.0" prefWidth="691.0" text="WE BELIEVE IN CUSTOMER SATISFACTION!!!!!" textFill="#0f1210fe">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font></Label>
+      <ComboBox fx:id="combobox" layoutX="364.0" layoutY="245.0" onAction="#comboChanged" prefHeight="44.0" prefWidth="391.0" promptText="SELECT THE OPERATION YOU WANT TO PERFORM" style="-fx-background-color: #ff3d00;" />
+      <Button fx:id="submit" layoutX="488.0" layoutY="446.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="143.0" style="-fx-background-color: #ff3d00;" text="SUBMIT">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="1026.0" layoutY="55.0" mnemonicParsing="false" onAction="#GOHOME" style="-fx-background-color: #ff3d00;" text="GO HOME">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <ImageView fitHeight="301.0" fitWidth="326.0" layoutX="821.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/cs4.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="301.0" fitWidth="286.0" layoutX="35.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/cs5.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="367.0" fitWidth="536.0" layoutX="35.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/cs2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="356.0" fitWidth="590.0" layoutX="583.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/customerservice1.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

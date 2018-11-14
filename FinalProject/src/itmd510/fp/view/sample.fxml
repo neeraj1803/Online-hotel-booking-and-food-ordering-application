@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<Pane fx:id="hometab" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="905.0" prefWidth="1188.0" style="-fx-background-color: #424242;" stylesheets="@../controller/application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.SampleController">
+   <children>
+      <Label fx:id="welcomemess" layoutX="114.0" layoutY="29.0" prefHeight="77.0" prefWidth="979.0">
+         <font>
+            <Font name="System Bold Italic" size="75.0" />
+         </font>
+      </Label>
+      <Button layoutX="507.0" layoutY="786.0" mnemonicParsing="false" onAction="#Gotomainpage" prefHeight="31.0" prefWidth="181.0" style="-fx-background-color: #ff3d00; -fx-padding: 5; -fx-background-radius: 20; -fx-border-radius: 20;" text="CONTINUE AS A GUEST">
+         <effect>
+            <DropShadow />
+         </effect></Button>
+      <Button layoutX="507.0" layoutY="618.0" mnemonicParsing="false" onAction="#Gotoregistrationpage" prefHeight="31.0" prefWidth="181.0" style="-fx-background-color: #ff3d00; -fx-border-radius: 20; -fx-background-radius: 20; -fx-padding: 5;" text="GET ME REGISTERED">
+         <effect>
+            <DropShadow />
+         </effect></Button>
+      <Button layoutX="170.0" layoutY="786.0" mnemonicParsing="false" onAction="#Gotoadminloginpage" prefHeight="31.0" prefWidth="181.0" style="-fx-background-color: #ff3d00; -fx-border-radius: 20; -fx-background-radius: 20; -fx-padding: 5;" text="ADMIN LOGIN">
+         <effect>
+            <DropShadow />
+         </effect></Button>
+      <Button layoutX="170.0" layoutY="618.0" mnemonicParsing="false" onAction="#gotologin" prefHeight="31.0" prefWidth="181.0" style="-fx-background-color: #ff3d00; -fx-border-radius: 20; -fx-background-radius: 20; -fx-padding: 5;" text="LOG-IN">
+         <effect>
+            <DropShadow />
+         </effect></Button>
+      <ImageView fitHeight="338.0" fitWidth="631.0" layoutX="5.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/panorama-hotel-restaurant-18%20-%20Copy.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="16.0" layoutY="148.0" mnemonicParsing="false" onAction="#Gotomainpage" prefHeight="31.0" prefWidth="140.0" style="-fx-background-color: #ff3d00;" text="HOME" underline="true">
+         <effect>
+            <DropShadow />
+         </effect></Button>
+      <Button layoutX="156.0" layoutY="148.0" mnemonicParsing="false" onAction="#gotoaboutustab" prefHeight="31.0" prefWidth="156.0" style="-fx-background-color: #ff3d00;" text="ABOUT US" underline="true">
+         <effect>
+            <DropShadow />
+         </effect></Button>
+      <Button layoutX="313.0" layoutY="148.0" mnemonicParsing="false" onAction="#gotocontactuspage" prefHeight="31.0" prefWidth="181.0" style="-fx-background-color: #ff3d00;" text="CONTACT US" underline="true">
+         <effect>
+            <DropShadow />
+         </effect></Button>
+      <Button layoutX="497.0" layoutY="148.0" mnemonicParsing="false" onAction="#gotoviewphotos" prefHeight="31.0" prefWidth="140.0" style="-fx-background-color: #ff3d00;" text="PHOTOS" underline="true">
+         <effect>
+            <DropShadow />
+         </effect></Button>
+      <ImageView fitHeight="63.0" fitWidth="84.0" layoutX="58.0" layoutY="602.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/Apps-preferences-system-login-icon%20-%20Copy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="63.0" layoutX="58.0" layoutY="785.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/admin_min%20-%20Copy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="354.0" fitWidth="517.0" layoutX="657.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/th%20-%20Copy.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="329.0" fitWidth="528.0" layoutX="704.0" layoutY="571.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/pic1-deluxe%20-%20Copy.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="133.0" layoutX="405.0" layoutY="596.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/sign-up-128%20-%20Copy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="79.0" fitWidth="63.0" layoutX="405.0" layoutY="770.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/Office-Customer-Male-Light-icon%20-%20Copy.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="640.0" layoutY="148.0" mnemonicParsing="false" onAction="#process" prefHeight="31.0" prefWidth="108.0" style="-fx-background-color: #ff3d00;" text="PROCESS" underline="true">
+         <effect>
+            <DropShadow />
+         </effect></Button>
+      <Button layoutX="750.0" layoutY="148.0" mnemonicParsing="false" onAction="#gotofaqs" prefHeight="31.0" prefWidth="126.0" style="-fx-background-color: #ff3d00;" text="FAQS" underline="true">
+         <effect>
+            <DropShadow />
+         </effect></Button>
+      <ImageView fitHeight="31.0" fitWidth="63.0" layoutX="21.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/homeicon.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="158.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/aboutusicon.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="44.0" layoutX="313.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/contactusicon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="49.0" layoutX="497.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/camera.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="878.0" layoutY="148.0" mnemonicParsing="false" onAction="#gotorateus" prefHeight="31.0" prefWidth="126.0" style="-fx-background-color: #ff3d00;" text="RATE US" underline="true">
+         <effect>
+            <DropShadow />
+         </effect></Button>
+      <JFXButton fx:id="button" layoutX="344.0" layoutY="14.0" prefHeight="65.0" prefWidth="484.0" style="-fx-background-color: #00b0ff;" text="NEERAJ WELCOMES YOU !!!!!">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#5a15e4" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </JFXButton>
+     
+   </children>
+</Pane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="896.0" prefWidth="1080.0" style="-fx-background-color: #616161;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.DisplaymenuController">
+   <children>
+      <TableView fx:id="tableview" layoutX="28.0" layoutY="175.0" prefHeight="641.0" prefWidth="1024.0" style="-fx-background-color: #64ffda;">
+        <columns>
+          <TableColumn fx:id="col3" prefWidth="258.0" text="Room-Number" />
+          <TableColumn fx:id="col2" prefWidth="410.0" text="Room-Type" />
+            <TableColumn fx:id="col1" prefWidth="355.0" text="Rate" />
+        </columns>
+      </TableView>
+      <Label layoutX="333.0" layoutY="84.0" prefHeight="40.0" prefWidth="318.0" style="-fx-background-color: #18ffff;" text="HOTEL ROOM DETAILS">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

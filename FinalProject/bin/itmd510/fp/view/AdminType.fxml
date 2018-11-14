@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="689.0" prefWidth="889.0" style="-fx-background-color: #616161;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.AdminTypeController">
+   <children>
+      <Label fx:id="alabel" layoutX="273.0" layoutY="133.0" prefHeight="36.0" prefWidth="344.0" text="IF YOU ADMIN LOGIN HERE">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button layoutX="366.0" layoutY="225.0" mnemonicParsing="false" onAction="#adminlogin" prefHeight="31.0" prefWidth="158.0" style="-fx-background-color: #ff3d00; -fx-border-radius: 20; -fx-background-radius: 20; -fx-text-fill: #ffff00; -fx-padding: 5;" text="ADMIN LOGIN" />
+      <Label fx:id="ownerlabel" layoutX="232.0" layoutY="345.0" prefHeight="36.0" prefWidth="426.0" text="IF YOU HOTEL OWNER LOGIN HERE">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button layoutX="356.0" layoutY="446.0" mnemonicParsing="false" onAction="#ownerlogin" prefHeight="31.0" prefWidth="178.0" style="-fx-background-color: #ff3d00; -fx-text-fill: #ffff00; -fx-padding: 5; -fx-background-radius: 20; -fx-border-radius: 20;" text="HOTEL OWNER LOGIN" />
+      <Button layoutX="758.0" layoutY="46.0" mnemonicParsing="false" onAction="#gohome" prefHeight="50.0" prefWidth="75.0" style="-fx-background-color: #ff3d00;" text="HOME" />
+      <ImageView fitHeight="226.0" fitWidth="212.0" layoutX="7.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/d1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="271.0" fitWidth="231.0" layoutX="677.0" layoutY="404.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/d9.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="253.0" layoutY="610.0" mnemonicParsing="false" onAction="#gotomenu" prefHeight="31.0" prefWidth="178.0" style="-fx-background-color: #ff3d00; -fx-text-fill: #ffff00; -fx-padding: 5; -fx-background-radius: 20; -fx-border-radius: 20;" text="VIEW MENU" />
+      <Button layoutX="451.0" layoutY="610.0" mnemonicParsing="false" onAction="#gotorooms" prefHeight="31.0" prefWidth="178.0" style="-fx-background-color: #ff3d00; -fx-text-fill: #ffff00; -fx-padding: 5; -fx-background-radius: 20; -fx-border-radius: 20;" text="VIEW ROOMS" />
+   </children>
+</Pane>

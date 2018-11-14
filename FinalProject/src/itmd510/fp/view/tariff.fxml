@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="977.0" prefWidth="1228.0" style="-fx-background-color: #616161;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.TariffController">
+   <children>
+      <ListView fx:id="listview" layoutX="30.0" layoutY="77.0" prefHeight="377.0" prefWidth="645.0" style="-fx-background-color: #64ffda;" />
+      <ImageView fitHeight="277.0" fitWidth="422.0" layoutX="731.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Roomimages/classicroom.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="room1" layoutX="878.0" layoutY="331.0" prefHeight="28.0" prefWidth="128.0" text="Classic Room">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="282.0" fitWidth="422.0" layoutX="731.0" layoutY="370.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Roomimages/premieresuite.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="room2" layoutX="874.0" layoutY="626.0" text="Priemere Room">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="237.0" fitWidth="458.0" layoutX="731.0" layoutY="668.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Roomimages/privilegesuite.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="room3" layoutX="878.0" layoutY="915.0" text="Privilege Room">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="367.0" fitWidth="611.0" layoutX="30.0" layoutY="542.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/agra-holiday-inn.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="465.0" layoutY="28.0" prefHeight="39.0" prefWidth="300.0" style="-fx-background-color: #00b0ff;" text="TARIFF'S &amp; PACKAGES">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

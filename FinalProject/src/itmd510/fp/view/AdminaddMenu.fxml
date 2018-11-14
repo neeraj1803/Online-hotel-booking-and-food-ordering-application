@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="905.0" prefWidth="1188.0" style="-fx-background-color: #616161;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.AdminaddMenuController">
+   <children>
+      <Label fx:id="admin" layoutX="276.0" layoutY="95.0" prefHeight="51.0" prefWidth="544.0" text="ADMIN FOOD MENU CONTROL">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addfood" layoutX="377.0" layoutY="229.0" prefHeight="35.0" prefWidth="369.0" promptText="Enter the Food to be added to the Menu" style="-fx-background-color: #ffff00;" />
+      <TextField fx:id="addrate" layoutX="377.0" layoutY="348.0" prefHeight="31.0" prefWidth="369.0" promptText="Enter the food rate in the Menu" style="-fx-background-color: #ffff00;" />
+      <Button layoutX="513.0" layoutY="472.0" mnemonicParsing="false" onAction="#AddMenu" prefHeight="31.0" prefWidth="97.0" style="-fx-background-color: #ff3d00; -fx-border-radius: 20; -fx-background-radius: 20; -fx-padding: 5; -fx-text-fill: #ffff00;" text="ADD" />
+      <Button layoutX="1035.0" layoutY="50.0" mnemonicParsing="false" onAction="#gohome" prefHeight="45.0" prefWidth="66.0" style="-fx-background-color: #ff3d00;" text="HOME" />
+      <ImageView fitHeight="299.0" fitWidth="369.0" layoutX="796.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/frankie.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="339.0" fitWidth="521.0" layoutX="618.0" layoutY="537.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/noodles.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="339.0" fitWidth="528.0" layoutX="32.0" layoutY="537.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/pasta.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="293.0" fitWidth="345.0" layoutX="7.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/platter.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="511.0" layoutY="407.0" mnemonicParsing="false" onAction="#viewmenu" style="-fx-background-color: #ff3d00;" text="VIEW MENU" />
+   </children>
+</Pane>

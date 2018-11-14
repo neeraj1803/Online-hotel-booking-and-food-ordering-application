@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="905.0" prefWidth="1188.0" style="-fx-background-color: #616161;" stylesheets="@../controller/application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.SearchroomController">
+   <children>
+      <Label fx:id="check" layoutX="347.0" layoutY="33.0" prefHeight="45.0" prefWidth="385.0" text="HOTEL NEERAJ'S DELIGHT">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font></Label>
+      <ComboBox fx:id="roomtype" layoutX="600.0" layoutY="183.0" prefHeight="31.0" prefWidth="158.0" promptText="ROOM TYPE" style="-fx-background-color: #ff3d00;" />
+      <ComboBox fx:id="guests" layoutX="600.0" layoutY="260.0" prefHeight="31.0" prefWidth="158.0" promptText="TOTAL GUESTS" style="-fx-background-color: #ff3d00;" />
+      <DatePicker fx:id="checkin" layoutX="600.0" layoutY="351.0" onAction="#showdate" prefHeight="31.0" prefWidth="158.0" promptText="CHECK-IN" style="-fx-background-color: #ff3d00;" />
+      <DatePicker fx:id="checkout" layoutX="600.0" layoutY="474.0" onAction="#showdate1" prefHeight="31.0" prefWidth="158.0" promptText="CHECK-OUT" style="-fx-background-color: #ff3d00;" />
+      <Button layoutX="612.0" layoutY="659.0" mnemonicParsing="false" onAction="#SearchHotel" prefHeight="31.0" prefWidth="136.0" style="-fx-background-color: #ffff00;" text="SEARCH" />
+      <TextField fx:id="cid" layoutX="600.0" layoutY="106.0" prefHeight="31.0" prefWidth="158.0" style="-fx-background-color: #ff3d00;" />
+      <TextField fx:id="d1" layoutX="618.0" layoutY="399.0" prefHeight="31.0" prefWidth="123.0" style="-fx-background-color: #ff3d00;" />
+      <TextField fx:id="d2" layoutX="618.0" layoutY="523.0" prefHeight="31.0" prefWidth="123.0" style="-fx-background-color: #ff3d00;" />
+      <ImageView fitHeight="375.0" fitWidth="533.0" layoutX="14.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/neerajsdelight.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="359.0" fitWidth="533.0" layoutX="14.0" layoutY="498.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/gempark.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="rt" layoutX="773.0" layoutY="188.0" prefHeight="21.0" prefWidth="50.0" text="Label" visible="false" />
+      <Label fx:id="g" layoutX="773.0" layoutY="265.0" prefHeight="21.0" prefWidth="43.0" text="Label" visible="false" />
+      <Button layoutX="1000.0" layoutY="37.0" mnemonicParsing="false" onAction="#gohome" prefHeight="31.0" prefWidth="98.0" style="-fx-background-color: #ffff00;" text="GO HOME" />
+   </children>
+</Pane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="905.0" prefWidth="1188.0" style="-fx-background-color: #616161;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.AboutusController">
+   <children>
+      <ListView fx:id="listview" layoutX="106.0" layoutY="379.0" prefHeight="396.0" prefWidth="977.0" style="-fx-background-color: #ffff00;">
+         <effect>
+            <SepiaTone />
+         </effect></ListView>
+      <ImageView fitHeight="302.0" fitWidth="401.0" layoutX="361.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/aboutus.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="198.0" fitWidth="195.0" layoutX="869.0" layoutY="554.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/photo_neeraj.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

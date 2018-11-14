@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="898.0" prefWidth="1193.0" style="-fx-background-color: #616161;" stylesheets="@../controller/application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.GuestSearchHotelsController">
+   <children>
+      <Label fx:id="h1" layoutX="70.0" layoutY="62.0" prefHeight="49.0" prefWidth="434.0" style="-fx-background-color: #18ffff;" text="HOTEL NEERAJ'S DELIGHT">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Label>
+      <Button layoutX="865.0" layoutY="388.0" mnemonicParsing="false" onAction="#getamenitiesforneeraj" style="-fx-background-color: #ff3d00;" text="AMENITIES" />
+      <Button layoutX="848.0" layoutY="181.0" mnemonicParsing="false" onAction="#getreviewforneeraj" style="-fx-background-color: #ff3d00;" text="GUEST REVIEWS" />
+      <ImageView fitHeight="454.0" fitWidth="733.0" layoutX="39.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/hotel-neeraj.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="1017.0" layoutY="62.0" mnemonicParsing="false" onAction="#gohome" style="-fx-background-color: #ff3d00;" text="HOME" />
+      <ImageView fitHeight="386.0" fitWidth="396.0" layoutX="783.0" layoutY="494.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/d6.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="305.0" fitWidth="475.0" layoutX="146.0" layoutY="579.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/p2.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="834.0" layoutY="292.0" mnemonicParsing="false" onAction="#gototariff" style="-fx-background-color: #ff3d00;" text="TARIFF &amp; PACKAGES" />
+   </children>
+</Pane>

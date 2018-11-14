@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="905.0" prefWidth="1188.0" style="-fx-background-color: #616161;" stylesheets="@../controller/application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.HotelAdminController">
+   <children>
+      <TextField fx:id="ausername" layoutX="382.0" layoutY="230.0" prefHeight="31.0" prefWidth="329.0" promptText="Enter Your Username" style="-fx-background-color: #00b0ff;">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></TextField>
+      <Label fx:id="adminlabel" layoutX="398.0" layoutY="84.0" prefHeight="53.0" prefWidth="290.0" style="-fx-background-color: #18ffff;" text="HOTEL ADMIN LOGIN">
+         <font>
+            <Font name="System Bold Italic" size="26.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="apassword" layoutX="382.0" layoutY="363.0" prefHeight="31.0" prefWidth="329.0" promptText="Enter your Password" style="-fx-background-color: #00b0ff;">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></PasswordField>
+      <Button layoutX="484.0" layoutY="524.0" mnemonicParsing="false" onAction="#adlogin" prefHeight="31.0" prefWidth="96.0" style="-fx-background-color: #64ffda;" text="LOGIN" />
+      <Button layoutX="1011.0" layoutY="69.0" mnemonicParsing="false" onAction="#gohome" style="-fx-background-color: #ffff00;" text="HOME" />
+      <ImageView fitHeight="350.0" fitWidth="544.0" layoutX="630.0" layoutY="555.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/ho8.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="318.0" fitWidth="429.0" layoutX="14.0" layoutY="593.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/ho9.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="318.0" fitWidth="535.0" layoutX="804.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/ho10.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="318.0" fitWidth="264.0" layoutX="31.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/tower-of-doom1.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="905.0" prefWidth="1188.0" style="-fx-background-color: #616161;" stylesheets="@../controller/application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.HotelownerupdateroomController">
+   <children>
+      <TextField fx:id="roomno" layoutX="398.0" layoutY="169.0" prefHeight="34.0" prefWidth="306.0" promptText="Enter One Room Number" style="-fx-background-color: #ffff00;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="rate" layoutX="398.0" layoutY="300.0" prefHeight="37.0" prefWidth="306.0" promptText="Enter one Room Rate" style="-fx-background-color: #ffff00;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <Button layoutX="398.0" layoutY="441.0" mnemonicParsing="false" onAction="#updateroom" prefHeight="37.0" prefWidth="97.0" style="-fx-background-color: #ff3d00;" text="UPDATE" />
+      <Button layoutX="564.0" layoutY="441.0" mnemonicParsing="false" onAction="#viewrooms" prefHeight="37.0" prefWidth="125.0" style="-fx-background-color: #ff3d00;" text="VIEW ROOMS" />
+      <Button layoutX="1006.0" layoutY="68.0" mnemonicParsing="false" onAction="#gohome" style="-fx-background-color: #ff3d00;" text="HOME" />
+      <Label layoutX="368.0" layoutY="66.0" prefHeight="36.0" prefWidth="347.0" style="-fx-background-color: #64ffda;" text="UPDATE ROOM RATES HERE">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="358.0" fitWidth="552.0" layoutX="627.0" layoutY="514.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/ho2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="326.0" fitWidth="585.0" layoutX="14.0" layoutY="514.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Roomimages/classicroom.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="336.0" fitWidth="392.0" layoutX="776.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/ho6.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="336.0" fitWidth="318.0" layoutX="48.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/ho7.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

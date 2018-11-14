@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="784.0" prefWidth="1026.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.designController">
+   <children>
+      <JFXHamburger fx:id="hamburger" layoutX="911.0" layoutY="19.0" prefHeight="48.0" prefWidth="77.0" />
+      <JFXDrawer fx:id="drawer" layoutX="-9.0" prefHeight="784.0" prefWidth="211.0" resizableOnDrag="true">
+         <children>
+            <Label fx:id="hi" prefHeight="21.0" prefWidth="89.0" text="hello neeraj" />
+         </children>
+      </JFXDrawer>
+   </children>
+</Pane>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="905.0" prefWidth="1188.0" style="-fx-background-color: #616161;" stylesheets="@../controller/application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.AdminaddRoomController">
+   <children>
+      <Label layoutX="474.0" layoutY="60.0" prefHeight="21.0" prefWidth="260.0" text="ADD ROOMS">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="l1" layoutX="399.0" layoutY="153.0" prefHeight="39.0" prefWidth="348.0" style="-fx-background-color: #2962ff;" text="HOTEL NEERAJ'S DELIGHT">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <TextField fx:id="roomno" layoutX="466.0" layoutY="267.0" prefHeight="31.0" prefWidth="213.0" promptText="Enter Room Number" style="-fx-background-color: #ffff00;" />
+      <TextField fx:id="roomtype" layoutX="466.0" layoutY="368.0" prefHeight="31.0" prefWidth="213.0" promptText="Enter Room Type" style="-fx-background-color: #ffff00;" />
+      <TextField fx:id="rate" layoutX="466.0" layoutY="466.0" prefHeight="31.0" prefWidth="213.0" promptText="Enter Rate" style="-fx-background-color: #ffff00;" />
+      <Button layoutX="466.0" layoutY="539.0" mnemonicParsing="false" onAction="#addroom1" prefHeight="31.0" prefWidth="73.0" style="-fx-background-color: #ff3d00; -fx-padding: 5; -fx-text-fill: #ffff00; -fx-border-radius: 20; -fx-background-radius: 20;" text="ADD" />
+      <Button layoutX="1035.0" layoutY="34.0" mnemonicParsing="false" onAction="#gohome" prefHeight="53.0" prefWidth="73.0" style="-fx-background-color: #ff3d00;" text="HOME" />
+      <ImageView fitHeight="353.0" fitWidth="437.0" layoutX="354.0" layoutY="586.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/r1.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="604.0" layoutY="539.0" mnemonicParsing="false" onAction="#viewroom" prefHeight="31.0" prefWidth="106.0" style="-fx-background-color: #ff3d00; -fx-padding: 5; -fx-text-fill: #ffff00; -fx-border-radius: 20; -fx-background-radius: 20;" text="VIEW ROOMS" />
+   </children>
+</Pane>

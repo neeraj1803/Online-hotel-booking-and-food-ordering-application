@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="905.0" prefWidth="1188.0" style="-fx-background-color: #616161;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.FAQController">
+   <children>
+      <ImageView fitHeight="767.0" fitWidth="824.0" layoutX="182.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/faqs.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="faq" layoutX="487.0" layoutY="14.0" prefHeight="59.0" prefWidth="142.0" style="-fx-background-color: #ff3d00;" text="FAQ'S">
+         <font>
+            <Font name="System Bold" size="41.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="905.0" prefWidth="1188.0" style="-fx-background-color: #616161;" stylesheets="@../controller/application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.AdminmenuupdatedeleteController">
+   <children>
+      <TextField fx:id="food" layoutX="663.0" layoutY="176.0" prefHeight="34.0" prefWidth="306.0" promptText="Enter One Food Item" style="-fx-background-color: #ffff00;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="rate" layoutX="663.0" layoutY="333.0" prefHeight="37.0" prefWidth="306.0" promptText="Enter one Food Rate" style="-fx-background-color: #ffff00;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <Button layoutX="634.0" layoutY="492.0" mnemonicParsing="false" onAction="#updatemenu" prefHeight="37.0" prefWidth="97.0" style="-fx-background-color: #ff3d00;" text="UPDATE" />
+      <Button layoutX="799.0" layoutY="492.0" mnemonicParsing="false" onAction="#deletemenu" prefHeight="37.0" prefWidth="97.0" style="-fx-background-color: #ff3d00;" text="DELETE" />
+      <Button layoutX="961.0" layoutY="492.0" mnemonicParsing="false" onAction="#viewmenu" prefHeight="37.0" prefWidth="102.0" style="-fx-background-color: #ff3d00;" text="VIEW MENU" />
+      <Button layoutX="1063.0" layoutY="59.0" mnemonicParsing="false" onAction="#gohome" style="-fx-background-color: #ff3d00;" text="HOME" />
+      <ImageView fitHeight="405.0" fitWidth="522.0" layoutX="21.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/d8.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="393.0" fitWidth="579.0" layoutX="21.0" layoutY="465.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/food1.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="597.0" layoutY="59.0" prefHeight="43.0" prefWidth="405.0" text="UPDATE/DELETE FOOD ITEM">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

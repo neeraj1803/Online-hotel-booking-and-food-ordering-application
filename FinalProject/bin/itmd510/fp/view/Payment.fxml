@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="905.0" prefWidth="1188.0" style="-fx-background-color: #616161;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.PaymentController">
+   <children>
+      <Label fx:id="label" layoutX="320.0" layoutY="52.0" prefHeight="43.0" prefWidth="418.0" text="MAKE YOUR PAYMENT HERE">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="142.0" fitWidth="200.0" layoutX="894.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/paypal.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="936.0" layoutY="158.0" prefHeight="30.0" prefWidth="107.0" style="-fx-background-color: #2979ff;" text="PayNeeraj">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="number1" layoutX="172.0" layoutY="250.0" text="Enter Your Card Number">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="number" layoutX="413.0" layoutY="244.0" prefHeight="43.0" prefWidth="315.0" promptText="Enter your 16 digit number" style="-fx-background-color: #ff3d00;" />
+      <Label fx:id="validity" layoutX="172.0" layoutY="329.0" prefHeight="30.0" prefWidth="107.0" text="Valid upto">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="mm" layoutX="413.0" layoutY="329.0" prefHeight="43.0" prefWidth="58.0" promptText="MM" style="-fx-background-color: #ff3d00;" />
+      <TextField fx:id="yyyy" layoutX="493.0" layoutY="329.0" prefHeight="43.0" prefWidth="85.0" promptText="YYYY" style="-fx-background-color: #ff3d00;" />
+      <Label fx:id="cvvl" layoutX="172.0" layoutY="406.0" text="CVV">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="423.0" layoutY="566.0" mnemonicParsing="false" onAction="#pay" text="PROCESS MY PAYMENT">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="carderror" layoutX="740.0" layoutY="255.0" prefHeight="31.0" prefWidth="439.0">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="cvverrror" layoutX="594.0" layoutY="405.0" prefHeight="32.0" prefWidth="559.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="mmyyerror" layoutX="592.0" layoutY="340.0" prefHeight="35.0" prefWidth="575.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="cvv" layoutX="413.0" layoutY="402.0" prefHeight="39.0" prefWidth="107.0" promptText="CVV" style="-fx-background-color: #ff3d00;" />
+   </children>
+</Pane>

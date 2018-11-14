@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="images"/>
+	<classpathentry kind="src" path="Roomimages"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="lib" path="libs/ojdbc7.jar"/>
+	<classpathentry kind="lib" path="C:/app/neera/product/12.1.0/Myoracledb/jdbc/lib/ojdbc7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neera/Downloads/gtranslateapi-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neera/Downloads/jl1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neera/Downloads/commons-codec-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neera/Downloads/jfoenix.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

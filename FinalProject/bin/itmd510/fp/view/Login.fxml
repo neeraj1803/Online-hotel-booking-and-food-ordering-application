@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="882.0" prefWidth="1110.0" style="-fx-background-color: #616161;" stylesheets="@../controller/application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.LoginController">
+   <children>
+      <Label fx:id="llabel" layoutX="629.0" layoutY="91.0" prefHeight="57.0" prefWidth="243.0" style="-fx-background-color: #ffff00;" text="CUSTOMER LOGIN">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tusername" layoutX="594.0" layoutY="259.0" prefHeight="31.0" prefWidth="319.0" promptText="Enter Your Username" style="-fx-background-color: #ff3d00;">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></TextField>
+      <Button layoutX="682.0" layoutY="502.0" mnemonicParsing="false" onAction="#CLogin" prefHeight="31.0" prefWidth="128.0" style="-fx-background-color: #ffff00;" text="LOGIN">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <ImageView fitHeight="408.0" fitWidth="566.0" layoutX="8.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/login.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="error" layoutX="564.0" layoutY="573.0" prefHeight="42.0" prefWidth="358.0" />
+      <Label fx:id="donthaveacc" layoutX="616.0" layoutY="573.0" prefHeight="26.0" prefWidth="208.0" style="-fx-background-color: #00b0ff;" text="Dont have an account yet">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Button layoutX="838.0" layoutY="571.0" mnemonicParsing="false" onAction="#gotosignuppagefromlogin" style="-fx-background-color: #18ffff;" text="SIGN UP" underline="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <PasswordField fx:id="tpassword" layoutX="594.0" layoutY="392.0" prefHeight="31.0" prefWidth="319.0" promptText="Enter your password" style="-fx-background-color: #ff3d00;">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></PasswordField>
+      <Button layoutX="995.0" layoutY="40.0" mnemonicParsing="false" onAction="#signout" style="-fx-background-color: #18ffff;" text="LOGOUT">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+      <Label fx:id="isConnected" layoutX="500.0" layoutY="605.0" visible="false" />
+      <Label fx:id="usernamev" layoutX="616.0" layoutY="309.0" prefHeight="21.0" prefWidth="280.0">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="passwordv" layoutX="612.0" layoutY="450.0" prefHeight="21.0" prefWidth="280.0">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="905.0" layoutY="40.0" mnemonicParsing="false" onAction="#GOHOME" prefHeight="31.0" prefWidth="90.0" style="-fx-background-color: #18ffff;" text="GO HOME">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+   </children>
+</Pane>

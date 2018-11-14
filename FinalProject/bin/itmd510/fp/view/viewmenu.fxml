@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="886.0" prefWidth="1137.0" style="-fx-background-color: #616161;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.ViewmenuController">
+   <children>
+      <ListView fx:id="listview" layoutX="101.0" layoutY="89.0" prefHeight="155.0" prefWidth="907.0" style="-fx-background-color: #ffff00;" />
+      <TableView fx:id="tableview" layoutX="133.0" layoutY="330.0" prefHeight="464.0" prefWidth="846.0" style="-fx-background-color: #ff3d00;">
+        <columns>
+          <TableColumn fx:id="col2" prefWidth="407.0" text="FOOD" />
+          <TableColumn fx:id="col1" minWidth="0.0" prefWidth="438.0" text="RATE" />
+        </columns>
+      </TableView>
+      <Label layoutX="483.0" layoutY="29.0" prefHeight="53.0" prefWidth="115.0" style="-fx-background-color: #64ffda;" text="MENU">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

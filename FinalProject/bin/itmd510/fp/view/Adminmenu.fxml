@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="905.0" prefWidth="1144.0" style="-fx-background-color: #616161;" stylesheets="@../controller/application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.AdminmenuController">
+   <children>
+      <Button layoutX="673.0" layoutY="126.0" mnemonicParsing="false" onAction="#addmenu" prefHeight="31.0" prefWidth="198.0" style="-fx-background-color: #ff3d00; -fx-border-radius: 20; -fx-background-radius: 20; -fx-padding: 5;" text="ADD MENU" />
+      <Button layoutX="673.0" layoutY="224.0" mnemonicParsing="false" onAction="#updatemenu" prefHeight="31.0" prefWidth="198.0" style="-fx-background-color: #ff3d00; -fx-border-radius: 20; -fx-background-radius: 20; -fx-padding: 5;" text="UPDATE MENU" />
+      <Button layoutX="673.0" layoutY="321.0" mnemonicParsing="false" onAction="#deletemenu" prefHeight="31.0" prefWidth="198.0" style="-fx-padding: 5; -fx-border-radius: 20; -fx-background-color: #ff3d00; -fx-background-radius: 20;" text="DELETE MENU" />
+      <Button layoutX="663.0" layoutY="483.0" mnemonicParsing="false" onAction="#updateroominformation" style="-fx-padding: 5; -fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: #ff3d00;" text="UPDATE ROOM INFORMATION" />
+      <Button layoutX="673.0" layoutY="579.0" mnemonicParsing="false" onAction="#deleteroom" prefHeight="31.0" prefWidth="198.0" style="-fx-background-color: #ff3d00; -fx-padding: 5; -fx-background-radius: 20; -fx-border-radius: 20;" text="DELETE ROOM" />
+      <Button layoutX="673.0" layoutY="664.0" mnemonicParsing="false" onAction="#addroom" prefHeight="31.0" prefWidth="198.0" style="-fx-border-radius: 20; -fx-background-radius: 20; -fx-padding: 5; -fx-background-color: #ff3d00;" text="ADD ROOM" />
+      <Button layoutX="1019.0" layoutY="45.0" mnemonicParsing="false" onAction="#gohome" prefHeight="45.0" prefWidth="64.0" style="-fx-background-color: #ff3d00;" text="HOME" />
+      <ImageView fitHeight="403.0" fitWidth="432.0" layoutX="14.0" layoutY="410.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/admin1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="397.0" fitWidth="442.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/admin2.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="673.0" layoutY="410.0" mnemonicParsing="false" onAction="#viewmenu" prefHeight="31.0" prefWidth="198.0" style="-fx-padding: 5; -fx-border-radius: 20; -fx-background-color: #ff3d00; -fx-background-radius: 20;" text="VIEW MENU" />
+      <Button layoutX="673.0" layoutY="747.0" mnemonicParsing="false" onAction="#viewroom" prefHeight="31.0" prefWidth="198.0" style="-fx-border-radius: 20; -fx-background-radius: 20; -fx-padding: 5; -fx-background-color: #ff3d00;" text="VIEW ROOMS" />
+   </children>
+</Pane>

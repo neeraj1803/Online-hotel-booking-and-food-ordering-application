@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="948.0" prefWidth="1144.0" style="-fx-background-color: #616161;" stylesheets="@../controller/application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.FoodOrderController">
+   <children>
+      <TableView fx:id="tableview" layoutX="120.0" layoutY="93.0" prefHeight="368.0" prefWidth="937.0" style="-fx-background-color: #18ffff;">
+        <columns>
+          <TableColumn fx:id="col2" prefWidth="467.0" text="FOOD" />
+          <TableColumn fx:id="col1" prefWidth="375.0" text="RATE" />
+        </columns>
+      </TableView>
+      <TextField fx:id="t1" layoutX="194.0" layoutY="523.0" style="-fx-background-color: #64ffda;" />
+      <TextField fx:id="t2" layoutX="194.0" layoutY="646.0" style="-fx-background-color: #64ffda;" />
+      <Label fx:id="o1" layoutX="103.0" layoutY="528.0" text="ORDER">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font></Label>
+      <Label fx:id="o2" layoutX="103.0" layoutY="646.0" prefHeight="27.0" prefWidth="85.0" text="YOU PAY">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <Button fx:id="confirm" layoutX="480.0" layoutY="793.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="139.0" style="-fx-background-color: #18ffff;" text="CONFIRM ORDER" />
+      <TextField fx:id="name" layoutX="680.0" layoutY="523.0" prefHeight="31.0" prefWidth="214.0" promptText="Enter your Name" style="-fx-background-color: #64ffda;">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></TextField>
+      <TextArea fx:id="Address" layoutX="680.0" layoutY="577.0" prefHeight="106.0" prefWidth="214.0" promptText="Enter your Address" style="-fx-background-color: #00b0ff;" />
+      <TextField fx:id="number" layoutX="680.0" layoutY="721.0" prefHeight="31.0" prefWidth="214.0" promptText="Enter your Mobile Number" style="-fx-background-color: #64ffda;">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></TextField>
+      <TextField fx:id="cid" layoutX="680.0" layoutY="474.0" prefHeight="31.0" prefWidth="214.0" promptText="Customer ID" style="-fx-background-color: #64ffda;">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></TextField>
+      <Label layoutX="265.0" layoutY="31.0" prefHeight="43.0" prefWidth="590.0" text="WE ASSURE YOU QUALITY!!! NO COMPROMISE!!">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button layoutX="905.0" layoutY="37.0" mnemonicParsing="false" onAction="#rateus" style="-fx-background-color: #00b0ff;" text="RATE US">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="986.0" layoutY="37.0" mnemonicParsing="false" onAction="#gohome" style="-fx-background-color: #00b0ff;" text="HOME">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="fnamev" layoutX="910.0" layoutY="528.0" prefHeight="21.0" prefWidth="207.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberv" layoutX="910.0" layoutY="726.0" prefHeight="21.0" prefWidth="198.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

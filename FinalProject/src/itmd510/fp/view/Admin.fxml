@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="902.0" prefWidth="1146.0" style="-fx-background-color: #616161;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itmd510.fp.controller.AdminController">
+   <children>
+      <TextField fx:id="ausername" layoutX="611.0" layoutY="234.0" prefHeight="31.0" prefWidth="329.0" promptText="Enter Your Username" style="-fx-background-color: #ffff00;">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></TextField>
+      <Label fx:id="adminlabel" layoutX="611.0" layoutY="78.0" prefHeight="53.0" prefWidth="292.0" text="ADMIN LOGIN">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="apassword" layoutX="611.0" layoutY="367.0" prefHeight="31.0" prefWidth="329.0" promptText="Enter your Password" style="-fx-background-color: #ffff00;">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></PasswordField>
+      <Button layoutX="709.0" layoutY="520.0" mnemonicParsing="false" onAction="#adlogin" prefHeight="31.0" prefWidth="96.0" style="-fx-text-fill: #ffff00; -fx-padding: 5; -fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: #ff3d00;" text="LOGIN" />
+      <Button layoutX="1016.0" layoutY="56.0" mnemonicParsing="false" onAction="#gohome" prefHeight="44.0" prefWidth="67.0" style="-fx-background-color: #ff3d00;" text="HOME" />
+      <ImageView fitHeight="423.0" fitWidth="414.0" layoutX="36.0" layoutY="451.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/adminlogin.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="486.0" fitWidth="528.0" layoutX="14.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/images/adminlogin1.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
